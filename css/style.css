@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Poppins', sans-serif;
+}
+.header{
+	padding: 30px 0;
+}
+.mid{
+	width: 85%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.menu ul{
+	display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.menu ul li{
+	padding-left: 50px;
+}
+.menu ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: 600;
+	color: #0000006b;
+	text-transform: uppercase;
+}
+.banner{
+	padding: 20px 0 70px;
+}
+.banner img{
+	width: 100%;
+	max-width: 100%;
+}
+.small{
+	width: 78%;
+	margin: auto;
+}
+.gateway{
+	padding-bottom: 60px;
+}
+.link{
+	font-size: 18px;
+    color: #d0c9c9;
+    font-weight: 300;
+    text-transform: uppercase;
+    display: block;
+    text-decoration: none;
+}
+.title{
+	text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 20px 0 10px;
+    color: #676161;
+}
+.common_text{
+	text-align: justify;
+    padding: 20px 0;
+    color: #a79e9e;
+}
+.festival{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.music{
+	flex-basis: 0 0 48%;
+	max-width: 48%;
+}
+.music img{
+	width: 100%;
+	max-width: 100%;
+	box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.4);
+	display: block;
+	margin-bottom: 30px; 
+	transition: all 1s linear;
+}
+.music img:hover{
+	transform: scale(1.05);
+	box-shadow: 0 8px 15px 0 rgba(0, 0, 0, 0.4);
+}
+footer{
+	padding: 20px 0;
+	background-color: #E6E8EA;
+	margin-top: 60px;
+}
+.my_footer{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.copright ul, .social_links ul{
+	display: flex;
+}
+.copright ul li{
+	list-style: none;
+	padding-right: 30px;
+}
+.social_links ul li{
+	list-style: none;
+	padding-left: 30px;
+}
+.copright ul li a, .social_links ul li a{
+	text-decoration: none;
+	font-size: 18px;
+	 color: #676161;
+	 font-weight: 500;
+	 text-transform: capitalize;
+}
